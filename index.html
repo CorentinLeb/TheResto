@@ -8,38 +8,43 @@
     <link rel="stylesheet" href="assets/scss/style.css">
     <title>The Resto</title>
 </head>
-<body>
-    <div class="slider">
-        <div class="navbar_flex">
-            <p>Resto</p>
-            <ul>
-                <li>home</li>
-                <li>reservation</li>
-                <li>menu</li>
-                <li>blog</li>
-                <li>pages</li>
-                <li>shop</li>
-                <li>contact</li>
-            </ul>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
+    <body>
+        <div class="slider">
+            <div class="navbar_flex">
+                <div class="resto_flex">
+                    <p>Resto</p> 
+                </div>
+                <div class="menu_flex">
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">reservation</a></li>
+                        <li><a href="">menu</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">shop</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+                <div class="logo_flex">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div> 
+            </div>
+            <div class="item">
+                <img src="assets/images/bg-slider-01.jpg">
+            </div>
+            <div class="item">
+                <img src="assets/images/bg-slider-05.jpg">
+            </div>
+            <div class="item">
+                <img src="assets/images/bg-slider-06.jpg">
+            </div>
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a> 
         </div>
-        
-        <div class="item">
-            <img src="assets/images/bg-slider-01.jpg">
+    
         </div>
-        <div class="item">
-            <img src="assets/images/bg-slider-05.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/images/bg-slider-06.jpg">
-        </div>
-        <a class="previous" onclick="previousSlide()">&#10094;</a>
-        <a class="next" onclick="nextSlide()">&#10095;</a>
-        
-    </div>
-    </div>
-    <script src="assets/js/main.js"></script>
-</body>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

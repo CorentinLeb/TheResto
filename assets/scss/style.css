@@ -6,39 +6,73 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Roboto';
+  text-decoration: none;
 }
 
 .navbar_flex {
-  color: white;
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: white;
+  position: absolute;
   width: 100%;
 }
 
 .navbar_flex p {
+  font-size: 2em;
+  width: 30%;
   margin-top: 20px;
   font-family: 'Dancing';
-  font-size: 3rem;
 }
 
-.navbar_flex ul {
+.menu_flex {
   margin-top: 20px;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.menu_flex ul {
+  text-align: center;
+  font-size: 1.5em;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.menu_flex ul a {
+  font-family: 'RobotoBold';
+  text-transform: uppercase;
+  margin-left: 20px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-transform: uppercase;
-}
-
-.navbar_flex ul li {
-  width: 100%;
-  text-align: center;
-}
-
-i {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: white;
+}
+
+.logo_flex {
+  margin-top: 20px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  width: 13%;
+}
+
+.logo_flex i {
+  font-size: 3em;
 }
 
 @font-face {

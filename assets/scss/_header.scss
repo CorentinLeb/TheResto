@@ -4,32 +4,57 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Roboto';
+    text-decoration: none;
 }
 
 .navbar_flex {
+    display: flex;
     color: white;
     position: absolute;
-    display: flex;
     width: 100%;
 
     p  {
+        font-size: 2em;
+        width: 30%;
         margin-top: 20px;
         font-family: 'Dancing';
-        font-size: 3rem;
     }
+}
 
-    ul {
-        margin-top: 20px;
-        width: 100%;
+.menu_flex {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100%;
+
+    ul{
+        text-align: center;
+        font-size: 1.5em;
+        width: 50%;
         display: flex;
-        text-transform: uppercase;
-        li {
+        justify-content: center;
+        text-decoration: none;
+
+        a {
+            font-family: 'RobotoBold';
+            text-transform: uppercase;
+            margin-left: 20px;
             width: 100%;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            color: white;
         }
     }
 }
 
-i {
+.logo_flex {
+    margin-top: 20px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
     color: white;
+    width: 13%;
+
+    i{
+        font-size: 3em;
+    }
 }
