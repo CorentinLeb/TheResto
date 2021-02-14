@@ -123,14 +123,15 @@
   position: absolute;
   text-align: center;
   font-family: 'Dancing';
-  color: gold;
-  font-size: 4em;
+  color: #af7746;
+  font-size: 2.5em;
 }
 
 .text_flex span:nth-child(2) {
-  margin-top: 50px;
-  font-size: 4.5em;
+  margin-top: 30px;
+  font-size: 3.5em;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .icon_welcome {
@@ -138,13 +139,12 @@
 }
 
 .icon_welcome img {
-  width: 100%;
+  width: 70%;
 }
 
 .ingredients_flex {
   margin-top: 30px;
-  font-size: 1.5rem;
-  font-family: 'RobotoBold';
+  font-size: 1.3rem;
   text-transform: uppercase;
   word-spacing: 1rem;
 }
