@@ -19,21 +19,22 @@
 }
 
 .navbar_flex p {
-  font-size: 2em;
+  font-size: 5em;
   width: 30%;
+  margin-left: 30px;
   margin-top: 20px;
   font-family: 'Dancing';
 }
 
 .menu_flex {
-  margin-top: 20px;
-  margin-left: 150px;
+  margin-top: 40px;
+  margin-left: 400px;
   width: 100%;
 }
 
 .menu_flex ul {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,7 +48,7 @@
 .menu_flex ul a {
   font-family: 'RobotoBold';
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 40px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,9 +59,13 @@
   color: white;
 }
 
+.menu_flex ul a:hover {
+  color: #585656;
+}
+
 .logo_flex {
-  margin-top: 20px;
-  float: left;
+  margin-top: 40px;
+  padding-right: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +77,76 @@
 }
 
 .logo_flex i {
+  margin-left: 15px;
   font-size: 1.5em;
+}
+
+.logo_flex i:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  color: grey;
+}
+
+.welcome_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 180px;
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+
+.text_flex {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text_flex span:first-child {
+  margin-left: 60px;
+  position: absolute;
+  text-align: center;
+  font-family: 'Dancing';
+  color: gold;
+  font-size: 4em;
+}
+
+.text_flex span:nth-child(2) {
+  margin-top: 50px;
+  font-size: 4.5em;
+  text-transform: uppercase;
+}
+
+.icon_welcome {
+  width: 5%;
+}
+
+.icon_welcome img {
+  width: 100%;
+}
+
+.ingredients_flex {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-family: 'RobotoBold';
+  text-transform: uppercase;
+  word-spacing: 1rem;
 }
 
 @font-face {
