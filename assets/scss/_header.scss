@@ -6,4 +6,30 @@
     font-family: 'Roboto';
 }
 
+.navbar_flex {
+    color: white;
+    position: absolute;
+    display: flex;
+    width: 100%;
 
+    p  {
+        margin-top: 20px;
+        font-family: 'Dancing';
+        font-size: 3rem;
+    }
+
+    ul {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        text-transform: uppercase;
+        li {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+i {
+    color: white;
+}
